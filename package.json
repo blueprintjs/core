@@ -69,9 +69,6 @@
         }
     },
     "devDependencies": {
-        "blueprintjs-karma-build-scripts": "workspace:^",
-        "blueprintjs-node-build-scripts": "workspace:^",
-        "blueprintjs-test-commons": "workspace:^",
         "@testing-library/react": "^12.1.5",
         "enzyme": "^3.11.0",
         "karma": "^6.4.2",
@@ -82,11 +79,6 @@
         "react-test-renderer": "^16.14.0",
         "typescript": "~5.2.2",
         "webpack-cli": "^5.1.4"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:palantir/blueprint.git",
-        "directory": "packages/core"
     },
     "keywords": [
         "palantir",

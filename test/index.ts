@@ -15,7 +15,7 @@
 
 import "../lib/css/blueprint.css";
 
-import "@blueprintjs/test-commons/bootstrap";
+import "blueprintjs-test-commons/bootstrap";
 
 // common
 import "./common/propsTests";

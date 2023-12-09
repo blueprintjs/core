@@ -19,7 +19,7 @@
 import { resolve } from "node:path";
 import { cwd } from "node:process";
 
-import { baseConfig, COMMON_EXTERNALS } from "@blueprintjs/webpack-build-scripts";
+import { baseConfig, COMMON_EXTERNALS } from "blueprintjs-webpack-build-scripts";
 
 export default Object.assign({}, baseConfig, {
     entry: {

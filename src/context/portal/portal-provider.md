@@ -10,7 +10,7 @@ options. It uses the [React context API](https://reactjs.org/docs/context.html).
 @## Usage
 
 ```tsx
-import { PortalProvider, Dialog } from "@blueprintjs/core";
+import { PortalProvider, Dialog } from "blueprintjs-core";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 

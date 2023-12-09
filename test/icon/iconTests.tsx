@@ -19,9 +19,9 @@ import { mount } from "enzyme";
 import * as React from "react";
 import { type SinonStub, stub } from "sinon";
 
-import { type IconName, Icons, IconSize } from "@blueprintjs/icons";
+import { type IconName, Icons, IconSize } from "blueprintjs-icons";
 // tslint:disable-next-line no-submodule-imports
-import { Add, Airplane, Calendar, Graph } from "@blueprintjs/icons/lib/cjs/generated/16px/paths";
+import { Add, Airplane, Calendar, Graph } from "blueprintjs-icons/lib/cjs/generated/16px/paths";
 
 import { Classes, Icon, type IconProps, Intent } from "../../src";
 

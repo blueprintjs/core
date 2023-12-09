@@ -18,7 +18,7 @@ import * as React from "react";
 
 import { AbstractPureComponent, DISPLAYNAME_PREFIX } from "../../common";
 
-// backwards-compatible with @blueprintjs/core v4.x
+// backwards-compatible with blueprintjs-core v4.x
 export type ResizeEntry = ResizeObserverEntry;
 
 /** `ResizeSensor` requires a single DOM element child and will error otherwise. */

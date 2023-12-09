@@ -17,7 +17,7 @@
 import { assert } from "chai";
 import * as React from "react";
 
-import { dispatchMouseEvent } from "@blueprintjs/test-commons";
+import { dispatchMouseEvent } from "blueprintjs-test-commons";
 
 import { Classes, hideContextMenu, Menu, MenuItem, showContextMenu, Utils } from "../../src";
 

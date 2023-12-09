@@ -19,7 +19,7 @@ import { mount } from "enzyme";
 import * as React from "react";
 import sinon from "sinon";
 
-import { expectPropValidationError } from "@blueprintjs/test-commons";
+import { expectPropValidationError } from "blueprintjs-test-commons";
 
 import { Classes, RangeSlider } from "../../src";
 import { Handle } from "../../src/components/slider/handle";

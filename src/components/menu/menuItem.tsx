@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { CaretRight, SmallTick } from "@blueprintjs/icons";
+import { CaretRight, SmallTick } from "blueprintjs-icons";
 
 import { Classes } from "../../common";
 import { type ActionProps, DISPLAYNAME_PREFIX, removeNonHTMLProps } from "../../common/props";

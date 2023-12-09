@@ -38,7 +38,7 @@ components which use portals (popovers, tooltips, dialogs, etc.). You can do so 
 (usually, this should be done near the root of your application).
 
 ```tsx
-import { Button, Popover, PortalProvider } from "@blueprintjs/core";
+import { Button, Popover, PortalProvider } from "blueprintjs-core";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type { IconName } from "@blueprintjs/icons";
+import type { IconName } from "blueprintjs-icons";
 
 import type { IntentProps, MaybeElement, Props } from "../../common/props";
 

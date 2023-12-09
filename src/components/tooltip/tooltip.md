@@ -44,7 +44,7 @@ Also, you must take care to either set `<Popover shouldReturnFocusOnClose={false
 automatically when a user doesn't want it to.
 
 ```tsx
-import { Button, mergeRefs, Popover, Tooltip } from "@blueprintjs/core";
+import { Button, mergeRefs, Popover, Tooltip } from "blueprintjs-core";
 
 <Popover
     content={<h1>Popover!</h1>}

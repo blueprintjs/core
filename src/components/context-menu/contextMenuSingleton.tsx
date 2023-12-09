@@ -31,7 +31,7 @@ let contextMenuElement: HTMLElement | undefined;
  * Context menus created with this API will automatically close when a user clicks outside the popover.
  * You may force them to close by using `hideContextMenu()`.
  *
- * Note that this API relies on global state in the @blueprintjs/core package, and should be used with caution,
+ * Note that this API relies on global state in the blueprintjs-core package, and should be used with caution,
  * especially if your build system allows multiple copies of Blueprint libraries to be bundled into an application at
  * once.
  *
@@ -59,7 +59,7 @@ export function showContextMenu(props: Omit<ContextMenuPopoverProps, "isOpen">) 
 /**
  * Hide a context menu that was created using `showContextMenu()`.
  *
- * Note that this API relies on global state in the @blueprintjs/core package, and should be used with caution.
+ * Note that this API relies on global state in the blueprintjs-core package, and should be used with caution.
  *
  * @see https://blueprintjs.com/docs/#core/components/context-menu-popover.imperative-api
  */

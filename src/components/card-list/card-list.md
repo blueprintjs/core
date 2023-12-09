@@ -13,7 +13,7 @@ be styled with CSS to scroll vertically.
 @## Usage
 
 ```tsx
-import { Card, CardList } from "@blueprintjs/core";
+import { Card, CardList } from "blueprintjs-core";
 
 <CardList>
     <Card>Basil</Card>
@@ -34,7 +34,7 @@ Set the same value for `<SectionCard padded>` and `<CardList bordered>` (either 
 different kinds of appearances.
 
 ```tsx
-import { Card, CardList, Section, SectionCard } from "@blueprintjs/core";
+import { Card, CardList, Section, SectionCard } from "blueprintjs-core";
 
 <Section title="Traditional pesto">
     <SectionCard padded={false}>

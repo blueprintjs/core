@@ -18,7 +18,7 @@ import { assert } from "chai";
 import { mount, type ReactWrapper } from "enzyme";
 import * as React from "react";
 
-import { IconNames } from "@blueprintjs/icons";
+import { IconNames } from "blueprintjs-icons";
 
 import { Classes, H5, H6, Section, SectionCard } from "../../src";
 

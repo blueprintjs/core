@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { type IconName, IconSize, SmallCross } from "@blueprintjs/icons";
+import { type IconName, IconSize, SmallCross } from "blueprintjs-icons";
 
 import { Classes, DISPLAYNAME_PREFIX, type IntentProps, type MaybeElement, type Props, Utils } from "../../common";
 import { isReactNodeEmpty } from "../../common/utils";

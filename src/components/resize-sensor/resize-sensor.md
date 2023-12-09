@@ -18,7 +18,7 @@ injected ref to the underlying DOM element.
 @## Usage
 
 ```tsx
-import { ResizeEntry, ResizeSensor } from "@blueprintjs/core";
+import { ResizeEntry, ResizeSensor } from "blueprintjs-core";
 
 function handleResize(entries: ResizeEntry[]) {
     console.log(entries.map(e => `${e.contentRect.width} x ${e.contentRect.height}`));

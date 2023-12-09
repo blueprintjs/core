@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { ChevronRight } from "@blueprintjs/icons";
+import { ChevronRight } from "blueprintjs-icons";
 
 import { Classes, DISPLAYNAME_PREFIX } from "../../common";
 import { Collapse } from "../collapse/collapse";

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-/** @fileoverview type aliases for backwards-compatibility with @blueprintjs/core v4.x */
+/** @fileoverview type aliases for backwards-compatibility with blueprintjs-core v4.x */
 
 export {
     /** @deprecated use AbstractComponent */

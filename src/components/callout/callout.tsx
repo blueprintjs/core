@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { Error, type IconName, InfoSign, Tick, WarningSign } from "@blueprintjs/icons";
+import { Error, type IconName, InfoSign, Tick, WarningSign } from "blueprintjs-icons";
 
 import {
     AbstractPureComponent,

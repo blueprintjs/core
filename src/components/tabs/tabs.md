@@ -14,7 +14,7 @@ Arbitrary elements are supported in the tab list, and order is respected. Yes,
 you can even insert things _between_ `<Tab>` elements.
 
 ```tsx
-import { Tab, Tabs } from "@blueprintjs/core";
+import { Tab, Tabs } from "blueprintjs-core";
 
 <Tabs id="TabsExample" onChange={this.handleTabChange} selectedTabId="rx">
     <Tab id="ng" title="Angular" panel={<AngularPanel />} />

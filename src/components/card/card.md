@@ -7,7 +7,7 @@ A **Card** is a bounded unit of UI content with a solid background color.
 @## Usage
 
 ```tsx
-import { Button, Card, Elevation } from "@blueprintjs/core";
+import { Button, Card, Elevation } from "blueprintjs-core";
 
 <Card interactive={true} elevation={Elevation.TWO}>
     <h5>

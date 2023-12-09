@@ -54,7 +54,7 @@ export const HTMLTable: React.FC<HTMLTableProps> = React.forwardRef((props, ref)
         },
         className,
     );
-    // eslint-disable-next-line @blueprintjs/html-components
+    // eslint-disable-next-line blueprintjs-html-components
     return <table {...htmlProps} ref={ref} className={classes} />;
 });
 HTMLTable.displayName = `${DISPLAYNAME_PREFIX}.HTMLTable`;

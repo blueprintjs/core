@@ -59,7 +59,7 @@ In general, uncontrolled mode is the recommended API for this component, as it a
 like `.` and `-` (for decimals and negative numbers, respectively) more easily.
 
 ```tsx
-import { NumericInput } from "@blueprintjs/core";
+import { NumericInput } from "blueprintjs-core";
 
 export class NumericInputExample extends React.Component {
     public render() {
@@ -102,7 +102,7 @@ numeric input's basic functionality in powerful ways. As shown in the example ab
 component with support for mathematical expressions as follows:
 
 ```tsx
-import { NumericInput } from "@blueprintjs/core";
+import { NumericInput } from "blueprintjs-core";
 import * as SomeLibrary from "some-library";
 
 interface NumericInputExampleState = {

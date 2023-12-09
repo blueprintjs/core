@@ -5,12 +5,12 @@
 @import "mixins";
 
 // ----------------------------------------------------------------------------
-// This file is part of the public Sass API of @blueprintjs/core.
+// This file is part of the public Sass API of blueprintjs-core.
 // As such, it comes with important considerations:
 //
 // -  Changes to these variable names and values are generally considered breaking changes.
 // -  A limited subset of Sass syntax is supported. All syntax inluded here must be able to get parsed by the
-//    `generate-css-variables` script in @blueprintjs/node-build-scripts. For example, "sass:math" is unsupported.
+//    `generate-css-variables` script in blueprintjs-node-build-scripts. For example, "sass:math" is unsupported.
 // ----------------------------------------------------------------------------
 
 // Namespace appended to the beginning of each CSS class: `.#{$ns}-button`.

@@ -5,7 +5,7 @@ a __HTMLSelect__ component to streamline this process.
 
 <div class="@ns-callout @ns-intent-success @ns-icon-info-sign @ns-callout-has-body-content">
 
-The [__Select__](#select/select-component) component in the [**@blueprintjs/select**](#select)
+The [__Select__](#select/select-component) component in the [**blueprintjs-select**](#select)
 package provides a more full-features alternative to the native HTML `<select>` tag. Notably, it
 supports custom filtering logic and item rendering.
 

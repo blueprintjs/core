@@ -66,7 +66,7 @@ See the [callout here](#core/components/button.props) for more details.
 </div>
 
 ```tsx
-import { Button, Classes, Popover } from "@blueprintjs/core";
+import { Button, Classes, Popover } from "blueprintjs-core";
 
 export class PopoverExample extends React.PureComponent {
     public render() {
@@ -99,7 +99,7 @@ The `placement` prop controls the popover's position relative to the target. Pop
 to Popper.js; it uses the same semantics and supported values
 [as shown here in the docs](https://popper.js.org/docs/v2/constructors/#options).
 
-`import { PopperPlacements } from "@blueprintjs/core"` defines the full set of supported values.
+`import { PopperPlacements } from "blueprintjs-core"` defines the full set of supported values.
 There are straightforward base placements (`"top"`, `"bottom"`, `"left"`, `"right"`) and their variations, which
 each consist of two attributes:
 
@@ -186,7 +186,7 @@ The popover will re-open when `disabled` is set to `false`.
 #### Example controlled usage
 
 ```tsx
-import { Button, Classes, Popover } from "@blueprintjs/core";
+import { Button, Classes, Popover } from "blueprintjs-core";
 
 export class ControlledPopoverExample extends React.Component<{}, { isOpen: boolean }> {
     public state = { isOpen: false };
@@ -412,7 +412,7 @@ performance. If your components are not updating in a synchronous fashion as exp
 `setTimeout` to wait for asynchronous Popover rendering to catch up:
 
 ```tsx
-import { Classes, Overlay, Popover } from "@blueprintjs/core";
+import { Classes, Overlay, Popover } from "blueprintjs-core";
 import { assert } from "chai";
 import { mount } from "enzyme";
 import { Target } from "react-popper";

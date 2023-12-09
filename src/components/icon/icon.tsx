@@ -25,7 +25,7 @@ import {
     IconSize,
     SVGIconContainer,
     type SVGIconProps,
-} from "@blueprintjs/icons";
+} from "blueprintjs-icons";
 
 import {
     Classes,

@@ -34,7 +34,7 @@ Icons may be configured to load in various ways, see ["Loading icons"](#icons/lo
 The HTML element rendered by `<Icon>` can be customized with the `tagName` prop
 (defaults to `span`), and additional props are passed to this element.
 
-Data files in the __@blueprintjs/icons__ package provide SVG path information
+Data files in the __blueprintjs-icons__ package provide SVG path information
 for Blueprint's 500+ icons for 16px and 20px grids. The `icon` prop specifies
 which SVG is rendered and the `size` prop determines which pixel grid is used:
 `size >= 20` will use the 20px grid and smaller icons will use the 16px grid.
@@ -43,7 +43,7 @@ If `title` is _not_ provided to an `<Icon>`, `aria-hidden` will be set to true a
 it will be assumed that the icon is decorative since it is unlabeled.
 
 ```tsx
-import { Icon, IconSize } from "@blueprintjs/core";
+import { Icon, IconSize } from "blueprintjs-core";
 
 // icon name string literals are type checked
 <Icon icon="cross" />
@@ -91,7 +91,7 @@ or SVG elements. The `<Icon>` component has a generic type which allows for this
 specify a type parameter on the component opening tag to (for example) set an HTML-only attribute:
 
 ```tsx
-import { Icon } from "@blueprintjs/core";
+import { Icon } from "blueprintjs-core";
 import * as React from "react";
 
 function Example() {
@@ -105,7 +105,7 @@ Another use case for this type parameter API may be to get the correct type defi
 on the root element when _omitting_ the icon wrapper element:
 
 ```tsx
-import { Icon } from "@blueprintjs/core";
+import { Icon } from "blueprintjs-core";
 import * as React from "react";
 
 function Example() {
@@ -118,7 +118,7 @@ function Example() {
 @## Static components
 
 The `<Icon>` component loads icon paths via dynamic module imports by default. An alternative API
-is available in the __@blueprintjs/icons__ package which provides static imports of each icon as
+is available in the __blueprintjs-icons__ package which provides static imports of each icon as
 a React component. The example below uses the `<Calendar>` component.
 
 Note that some `<Icon>` props are not yet supported for these components, such as `intent`.
@@ -129,7 +129,7 @@ Note that some `<Icon>` props are not yet supported for these components, such a
 
 @## CSS API
 
-The CSS-only icons API uses the __icon fonts__ from the __@blueprintjs/icons__ package.
+The CSS-only icons API uses the __icon fonts__ from the __blueprintjs-icons__ package.
 Note that _none of Blueprint's React components use the icon font_; it is only provided
 for convenience to Blueprint consumers for rare situations where an icon font may be
 preferred over icon SVGs.

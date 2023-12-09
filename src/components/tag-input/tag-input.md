@@ -9,7 +9,7 @@ Clicking anywhere on the container will focus the text input.
 <div class="@ns-callout @ns-intent-success @ns-icon-info-sign @ns-callout-has-body-content">
     <h5 class="@ns-heading">Looking for a dropdown menu?</h5>
 
-[The __MultiSelect__ component in the **@blueprintjs/select** package](#select/multi-select)
+[The __MultiSelect__ component in the **blueprintjs-select** package](#select/multi-select)
 composes this component with a dropdown menu.
 
 </div>

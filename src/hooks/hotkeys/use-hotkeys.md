@@ -30,7 +30,7 @@ React application.
 Then, to register hotkeys and generate the relevant event handlers, use the hook like so:
 
 ```tsx
-import { InputGroup, KeyComboTag, useHotkeys } from "@blueprintjs/core";
+import { InputGroup, KeyComboTag, useHotkeys } from "blueprintjs-core";
 import React, { createRef, useCallback, useMemo } from "react";
 
 export default function() {

@@ -47,7 +47,7 @@ Just like the **Radio** component, a **RadioCard** is usually contained in a
 [**RadioCardGroup**](#core/components/radio.radiogroup) which manages its selection state.
 
 ```tsx
-import { RadioGroup, RadioCard } from "@blueprintjs/core";
+import { RadioGroup, RadioCard } from "blueprintjs-core";
 import React from "react";
 
 function RadioCardGroupExample() {

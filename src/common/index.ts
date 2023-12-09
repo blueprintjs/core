@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-export { Colors } from "@blueprintjs/colors";
+export { Colors } from "blueprintjs-colors";
 
 export { AbstractComponent } from "./abstractComponent";
 export { AbstractPureComponent } from "./abstractPureComponent";

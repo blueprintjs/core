@@ -15,17 +15,17 @@
 
 // @ts-check
 
-require("@blueprintjs/test-commons/bootstrap");
+require("blueprintjs-test-commons/bootstrap");
 const React = require("react");
 
-const { generateIsomorphicTests } = require("@blueprintjs/test-commons");
+const { generateIsomorphicTests } = require("blueprintjs-test-commons");
 
 const Core = require("../lib/cjs");
 
 const requiredChild = React.createElement("button");
 const EXAMPLE_HOTKEY_CONFIG = { combo: "mod+s", global: true, label: "save" };
 
-describe("@blueprintjs/core isomorphic rendering", () => {
+describe("blueprintjs-core isomorphic rendering", () => {
     generateIsomorphicTests(
         Core,
         {

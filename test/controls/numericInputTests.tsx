@@ -24,7 +24,7 @@ import {
 import * as React from "react";
 import { type SinonStub, spy, stub } from "sinon";
 
-import { dispatchMouseEvent } from "@blueprintjs/test-commons";
+import { dispatchMouseEvent } from "blueprintjs-test-commons";
 
 import {
     Button,

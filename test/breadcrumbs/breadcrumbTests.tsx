@@ -19,7 +19,7 @@ import { mount, shallow } from "enzyme";
 import * as React from "react";
 import { spy } from "sinon";
 
-import { FolderClose } from "@blueprintjs/icons";
+import { FolderClose } from "blueprintjs-icons";
 
 import { Breadcrumb, Classes, Icon } from "../../src";
 

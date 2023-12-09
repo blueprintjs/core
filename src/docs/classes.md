@@ -32,14 +32,14 @@ be particularly useful when writing UI tests.
 
 ```tsx
 // use Classes constants for forward-compatible custom elements.
-import { Classes } from "@blueprintjs/core";
+import { Classes } from "blueprintjs-core";
 <a className={Classes.MENU_ITEM}>custom menu item</a>;
 ```
 
 ```scss
 // interpolate the $ns variable to generate forward-compatible class names.
 // this approach is *not encouraged* as it increases maintenance cost.
-@import "@blueprintjs/core/lib/scss/variables";
+@import "blueprintjs-core/lib/scss/variables";
 .#{$ns}-menu-item {
 }
 ```
@@ -88,11 +88,11 @@ You must use [Dart Sass](https://sass-lang.com/dart-sass) and set up a few impor
     the Blueprint repo into your project (in the future, this may not be required once Blueprint starts publishing
     these SVG files in a public NPM package).
 
-The __@blueprintjs/node-build-scripts__ package provides some utility functions to help with this. Here's a code example
+The __blueprintjs-node-build-scripts__ package provides some utility functions to help with this. Here's a code example
 for a custom Sass compiler that can import Blueprint `.scss` sources:
 
 ```js
-import { sassNodeModulesLoadPaths, sassSvgInlinerFactory } from "@blueprintjs/node-build-scripts";
+import { sassNodeModulesLoadPaths, sassSvgInlinerFactory } from "blueprintjs-node-build-scripts";
 import * as sass from "sass";
 
 const result = await sass.compileAsync("path/to/input.scss", {
@@ -117,7 +117,7 @@ In addition to the JS API, you can specify this configuration with Webpack's sas
 ```js
 // webpack.config.mjs
 
-import { sassNodeModulesLoadPaths, sassSvgInlinerFactory } from "@blueprintjs/node-build-scripts";
+import { sassNodeModulesLoadPaths, sassSvgInlinerFactory } from "blueprintjs-node-build-scripts";
 import * as sass from "sass";
 
 const functions = {
@@ -168,14 +168,14 @@ plugins: [
 
 @## Linting
 
-The [**@blueprintjs/eslint-config**](https://www.npmjs.com/package/@blueprintjs/eslint-config)
+The [**blueprintjs-eslint-config**](https://www.npmjs.com/package/blueprintjs-eslint-config)
 NPM package provides advanced configuration for [ESLint](https://eslint.org/). Blueprint is
 currently transitioning from [TSLint](https://palantir.github.io/tslint/) to ESLint, and as
 such, rules are being migrated from TSLint to ESLint. In the meantime, some TSLint rules are
 being run using ESLint.
 
-The [**@blueprintjs/eslint-plugin**](https://www.npmjs.com/package/@blueprintjs/eslint-plugin)
+The [**blueprintjs-eslint-plugin**](https://www.npmjs.com/package/blueprintjs-eslint-plugin)
 NPM package includes a custom `blueprint-html-components` rule that will warn on usages of
 JSX intrinsic elements (`<h1>`) that have a Blueprint alternative (`<H1>`). See
-the package's [README](https://www.npmjs.com/package/@blueprintjs/eslint-plugin)
+the package's [README](https://www.npmjs.com/package/blueprintjs-eslint-plugin)
 for usage instructions.

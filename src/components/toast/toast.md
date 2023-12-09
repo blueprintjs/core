@@ -107,7 +107,7 @@ The following code samples demonstrate our preferred pattern for intergrating a 
 #### `toaster.ts`
 
 ```ts
-import { OverlayToaster, Position } from "@blueprintjs/core";
+import { OverlayToaster, Position } from "blueprintjs-core";
 
 /** Singleton toaster instance. Create separate instances for different options. */
 export const AppToaster = OverlayToaster.create({
@@ -119,7 +119,7 @@ export const AppToaster = OverlayToaster.create({
 #### `application.tsx`
 
 ```tsx
-import { Button } from "@blueprintjs/core";
+import { Button } from "blueprintjs-core";
 import * as React from "react";
 import { AppToaster } from "./toaster";
 
@@ -145,7 +145,7 @@ optionally attach a `ref` handler to access the instance methods, but we strongl
 `ref.show()`.
 
 ```tsx
-import { Button, OverlayToaster, Position, Toast, Toaster } from "@blueprintjs/core";
+import { Button, OverlayToaster, Position, Toast, Toaster } from "blueprintjs-core";
 import * as React from "react";
 
 class MyComponent extends React.PureComponent {

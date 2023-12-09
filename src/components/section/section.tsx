@@ -17,7 +17,7 @@
 import classNames from "classnames";
 import * as React from "react";
 
-import { ChevronDown, ChevronUp, type IconName } from "@blueprintjs/icons";
+import { ChevronDown, ChevronUp, type IconName } from "blueprintjs-icons";
 
 import { Classes, Elevation, Utils } from "../../common";
 import { DISPLAYNAME_PREFIX, type HTMLDivProps, type MaybeElement, type Props } from "../../common/props";

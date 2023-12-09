@@ -23,7 +23,7 @@ by navigating around and triggering the dialog with the <kbd>?</kbd> key.
 @## Usage
 
 ```tsx
-import { HotkeysProvider } from "@blueprintjs/core";
+import { HotkeysProvider } from "blueprintjs-core";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
@@ -49,7 +49,7 @@ import {
     HotkeysContext,
     HotkeysProvider,
     HotkeysTarget2
-} from "@blueprintjs/core";
+} from "blueprintjs-core";
 import React, { useContext, useEffect, useRef } from "react";
 import * as ReactDOM from "react-dom";
 

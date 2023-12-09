@@ -18,7 +18,7 @@ import { assert } from "chai";
 import { mount } from "enzyme";
 import * as React from "react";
 
-import { IconNames } from "@blueprintjs/icons";
+import { IconNames } from "blueprintjs-icons";
 
 import { Callout, Classes, H5, Intent } from "../../src";
 

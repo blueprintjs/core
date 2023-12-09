@@ -19,7 +19,7 @@ import { mount, shallow, type ShallowWrapper } from "enzyme";
 import * as React from "react";
 import { type SinonStub, spy, stub } from "sinon";
 
-import { WarningSign } from "@blueprintjs/icons";
+import { WarningSign } from "blueprintjs-icons";
 
 import { Alert, type AlertProps, Button, type ButtonProps, Classes, Icon, Intent } from "../../src";
 import * as Errors from "../../src/common/errors";
